@@ -17,3 +17,9 @@ Content-Type: application/json
   "email": "bob@test.com",
   "password": "password"
 }
+
+### Events index
+GET http://localhost:3000/events.json
+
+### Events show
+GET http://localhost:3000/events/3.json
