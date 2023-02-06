@@ -22,5 +22,11 @@ class EventsController < ApplicationController
     render json: event.as_json
   end
 
+  def destroy
+    event = Event.find_by(id: params[:id])
+    event.delete
+    render json: {message: "this has been deleted"}
+  end
+
 
 end

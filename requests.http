@@ -35,3 +35,6 @@ Content-Type: application/json
   "start_time": "2022-01-02 12:30:00",
   "end_time": "2022-01-02 13:00:00"
 }
+
+### Events destroy
+DELETE http://localhost:3000/events/5.json
