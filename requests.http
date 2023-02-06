@@ -23,3 +23,15 @@ GET http://localhost:3000/events.json
 
 ### Events show
 GET http://localhost:3000/events/3.json
+
+### Events create
+POST http://localhost:3000/events.json
+Content-Type: application/json
+
+{
+  "subject": "Testing",
+  "description": "test something",
+  "user_id": 1,
+  "start_time": "2022-01-02 12:30:00",
+  "end_time": "2022-01-02 13:00:00"
+}
