@@ -3,8 +3,8 @@ POST http://localhost:3000/users.json
 Content-Type: application/json
 
 {
-  "name": "bob",
-  "email": "bob@test.com",
+  "name": "dave",
+  "email": "dave@test.com",
   "password": "password",
   "password_confirmation": "password"
 }
@@ -14,7 +14,7 @@ POST http://localhost:3000/sessions.json
 Content-Type: application/json
 
 {
-  "email": "bob@test.com",
+  "email": "dave@test.com",
   "password": "password"
 }
 
@@ -37,4 +37,4 @@ Content-Type: application/json
 }
 
 ### Events destroy
-DELETE http://localhost:3000/events/5.json
+DELETE http://localhost:3000/events/6.json
