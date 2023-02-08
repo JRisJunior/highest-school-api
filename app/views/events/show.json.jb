@@ -1,0 +1,8 @@
+{
+  id: @event.id,
+  text, @event.subject,
+  start: @event.start_time,
+  end: @event.end_time,
+  created_at: @event.created_at,
+  updated_at: @event.updated_at
+}
