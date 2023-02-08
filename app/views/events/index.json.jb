@@ -2,6 +2,7 @@
   {
     id: event.id,
     text: event.subject,
+    description: event.description,
     start: event.start_time,
     end: event.end_time
   }
