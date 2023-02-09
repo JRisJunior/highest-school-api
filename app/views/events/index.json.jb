@@ -1,7 +1,7 @@
 @events.map do |event|
   {
     id: event.id,
-    text: event.subject,
+    title: event.subject,
     description: event.description,
     start: event.start_time,
     end: event.end_time
