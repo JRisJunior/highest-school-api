@@ -4,6 +4,7 @@
     title: event.subject,
     description: event.description,
     start: event.start_time,
-    end: event.end_time
+    end: event.end_time,
+    allDay: event.allDay
   }
 end

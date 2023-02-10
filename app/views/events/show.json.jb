@@ -4,6 +4,7 @@
   description: event.description,
   start: @event.start_time,
   end: @event.end_time,
+  allDay: @event.allDay,
   created_at: @event.created_at,
   updated_at: @event.updated_at
 }

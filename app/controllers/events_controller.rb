@@ -16,7 +16,8 @@ class EventsController < ApplicationController
       description: params[:description],
       user_id: 1,
       start_time: params[:start_time],
-      end_time: params[:end_time]
+      end_time: params[:end_time],
+      allDay: params[:allDay]
     )
     @event.save
     render json: @event.as_json
